@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="524.534" height="845.202" viewBox="0 0 524.534 845.202">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.835" y1="0.183" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#758aee"/>
+      <stop offset="1" stop-color="#bf84d9"/>
+    </linearGradient>
+    <filter id="Tracé_207" x="0" y="0" width="524.534" height="632.568" filterUnits="userSpaceOnUse">
+      <feOffset dy="40" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="BackgroundLightMobile" transform="translate(74.618 35)">
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="375" height="810" transform="translate(0 0.202)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, -74.62, -35)" filter="url(#Tracé_207)">
+      <path id="Tracé_207-2" data-name="Tracé 207" d="M711.028,180.8V305.853s67.828-28.245,82.324,12.855-36.634,68.667,0,86.464,158.606-121.59,190.955-46.926-60.781,72.6-78.652,183.979,104.433-52.857,142.549-12.836-39.391,60.552-51.036,107.5,88.394,17.154,88.394,17.154l-.091-471.912Z" transform="translate(-636.03 -145.8)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

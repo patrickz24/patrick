@@ -1,0 +1,148 @@
+body{
+    /* background-color: black; */
+}
+
+header{
+    background-image: url('/images/backgrounds/BackgroundTestMobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header.night{
+    background-image: url('/images/backgrounds/BackgroundTestMobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    padding: 20px;
+}
+
+.container-header{
+    flex-direction: column;
+    margin-top:100px;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.side-left{
+    align-items: center;
+}
+
+.logo{
+    color:white;
+}
+
+.side-left h2{
+    display: none;
+}
+
+.side-left p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.side-left button{
+    height:60px;
+    transition-duration: 1s;
+}
+
+.side-left button:hover{
+    transform: scale(1.2);
+}
+
+.side-right img{
+    height:500px;
+    margin-left:-110px;
+}
+
+.container-services{
+    margin-top:250px;
+    flex-direction: column;
+}
+
+.box-services{
+    flex-direction: column;
+    margin-top:500px;
+    align-items: center;
+}
+
+.box-service{
+    margin-top:100px;
+}
+
+.container-solutions{
+    margin-top:1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-solutions{
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.sideLeft-solutions{
+    display: flex;
+}
+
+.sideLeft-solutions img{
+    height:360px;
+    margin-left: -30px;
+}
+
+.sideRight-solutions{
+    margin-top:20px;
+}
+
+.box-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: -80px;
+}
+
+.container-contact{
+    margin-bottom:600px;
+    margin-top:280px;
+}
+
+.box-contacts{
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideLeft-contact img{
+    height:350px;
+    margin-left:-50px;
+}
+
+form{
+    margin-top:30px;
+}
+
+form input{
+    width:400px;
+}
+
+form textarea{
+    width:400px;
+}
+
+footer{
+    margin-top:600px;
+    background-image: url("/images/backgrounds/FooterTestMobile.svg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer.night{
+    margin-top:200px;
+    height:70vh;
+    background-image: url("/images/backgrounds/FooterTestMobile.svg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

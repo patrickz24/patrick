@@ -1,0 +1,398 @@
+/* INIT PAGE */
+
+@font-face {
+    font-family: "neometric";
+    src: url("../webfonts/NeometricBold.otf") format("otf")   
+}
+
+*{
+    font-family: sans-serif;
+    font-family: "neometric";
+}
+
+body{
+    margin:0;
+}
+
+body.night{
+    background: linear-gradient(#150C34, #000000);
+}
+
+.title-section.night{
+    color:white;
+}
+
+/* ./INIT PAGE */
+
+/* HEADER */
+
+header{
+    background-image: url('/images/backgrounds/BackgroundLight.png');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+header.night{
+    background-image: url('/images/backgrounds/BackgroundNight.png');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh; 
+    /* transition-duration: 0.5s; */
+}
+
+.navbar{
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    margin: 0;
+    font-size: 2.3em;
+    color:#854BD5;
+    font-weight: 900;
+}
+
+.logo.night{
+    color: white;
+}
+
+.moonButton{
+    height:38px;
+    cursor: pointer;
+}
+
+
+/* CONTAINER HEADER */
+
+.container-header{
+    height:100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.side-left{
+    height:100%;
+    width:50%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: -80px;
+    padding: 20px;
+    color:#854BD5;
+}
+
+.side-left h1{
+    font-size: 5em;
+    margin:15px;
+}
+
+.subtitlePage{
+    font-size: 2.6em;
+    font-weight: 300;
+    margin: 15px;
+}
+
+.descriptionPage{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 15px;
+    text-align: left;
+}
+
+.side-left button{
+    height:50px;
+    width:300px;
+    border-radius: 5rem;
+    font-size: 1em;
+    background-image: linear-gradient(to right, #c087d7 2%, #868ce8 72%, #5f90f4 120%);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.16);
+    color: white;
+    margin: 15px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.side-left button:hover{
+    transform: scale(1.2);
+}
+
+.side-right{
+    height:100%;
+    width:50%;
+    /* background-color: purple; */
+    padding:20px;
+}
+
+.side-right img{
+    height:700px;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
+
+/* ./CONTAINER HEADER */
+
+/* ./HEADER */
+
+/* OUR SERVICES */
+
+.container-services{
+    /* background: red; */
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container-services h1{
+    font-size: 3em;
+    margin:0;
+}
+.container-services h1, p{
+    text-align: center;
+    color:#854BD5;
+}
+
+.box-services{
+    /* background: green; */
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-service{
+    /* background-color: purple; */
+    height: 100%;
+    width: 30%;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-service img{
+    height:120px;
+}
+
+/* ./OUR SERVICES */
+
+
+/* OUR SOLUTIONS */
+
+.container-solutions{
+    /* background-color: red; */
+    height:100vh;
+    color:#854BD5;
+    padding: 20px;
+}
+
+.container-solutions h1, p{
+    text-align: center;
+    color:#854BD5;
+}
+
+.container-solutions h1{
+    font-size: 3em;
+    margin:0;
+}
+
+.box-solutions{
+    height:100%;
+    /* background-color: crimson; */
+    display: flex;
+}
+
+.sideLeft-solutions{
+    height:100%;
+    width:50%;
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+
+.sideLeft-solutions img{
+    height:630px;
+}
+
+.sideRight-solutions{
+    height:100%;
+    width: 50%;
+    /* background-color: cadetblue; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-solution{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-solution img{
+    height:130px;
+    margin:5px;
+}
+
+.box-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 42px;
+}
+
+.box-description h2{
+    font-size: 2em;
+    margin:0;
+    margin-top: 20px;
+}
+
+.box-description p{
+    text-align: left;
+}
+
+/* ./OUR SOLUTIONS */
+
+/* CONTACT */
+
+.container-contact{
+    height:70vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.container-contact h1, p{
+    text-align: center;
+    color:#854BD5;
+}
+
+.container-contact h1{
+    font-size: 3em;
+    margin:0;
+}
+
+.box-contacts{
+    display: flex;
+}
+.sideLeft-contact{
+    height:100%;
+    width:50%;
+    /* background-color: green; */
+    padding:10px;
+}
+
+.sideLeft-contact img{
+    height:550px;
+}
+
+.sideRight-contact{
+    height:100%;
+    width:50%;
+    /* background-color: purple; */
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input{
+    height:40px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4rem;
+    border: none;
+    background-color: #ECEFF2;
+    color: rgb(101, 101, 101);
+    font-size: 1em;
+    width:550px;
+    margin: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+form textarea{
+    height:50px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border: none;
+    background-color: #ECEFF2;
+    color: rgb(101, 101, 101);
+    font-size: 1em;
+    width:550px;
+    margin: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+form button{
+  width: 240px;
+  height: 38px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.16);
+  background-color: #9045ff;
+  color:white;
+  font-size: 1em;
+  margin-top:40px;
+  outline: none;
+}
+/* ./CONTACT */
+
+/* FOOTER */
+
+footer{
+    margin-top:200px;
+    height:70vh;
+    background-image: url("/images/backgrounds/FooterBackgroundLight.svg");
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img{
+    height:50px;
+    margin-top: 400px;
+    margin-left: 20px;
+}
+
+footer h6{
+    color:white;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+footer.night{
+    margin-top:200px;
+    height:70vh;
+    background-image: url("/images/backgrounds/FooterBackgroundNight.svg");
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* ./FOOTER */

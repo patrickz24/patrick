@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2103.022" height="929.468" viewBox="0 0 2103.022 929.468">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a883e2"/>
+      <stop offset="1" stop-color="#7787ef"/>
+    </linearGradient>
+    <filter id="Tracé_450" x="0" y="0" width="2103.022" height="929.468" filterUnits="userSpaceOnUse">
+      <feOffset dx="55" dy="40" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="FooterBackgroundLight" transform="translate(35 50)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="1920" height="749" transform="translate(0 0.418)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, -35, -50)" filter="url(#Tracé_450)">
+      <path id="Tracé_450-2" data-name="Tracé 450" d="M0,5398V4832.8S125.962,5046.3,342.768,5070.081,766.731,4939.356,867.227,4927.9s43.865,166.744,176.9,176.959,423.367-125.658,537.6-321.156,143.828,320.158,228.1,286.378,108.975-421.5,108.975-421.5,9.5,702.849,0,749.468Z" transform="translate(35 -4598.58)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
